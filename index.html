@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        input[type=checkbox] {
+            accent-color:tomato;
+        }
+        input[type=radio]{
+            accent-color: greenyellow;
+        }
+        input [type=range]{
+            accent-color: rgb(0, 0, 255);
+
+        }
+        progress {
+            accent-color: hsl(39, 100%, 50%);
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3> accent-color for checkbox<h3>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="bike" checked>
+        <label for="vehicle1">in have a bike</label><br>
+         <input type="checkbox"id="vehicle2"name="vehicle2" value="car">
+         <label for="vehicle2">i have a car </label>
+         <h3> the accent for radio buttons</h3>
+         <input type="radio" id="html"name="fav_language"  value="html">
+         <label for ="html"> html </label> <br>
+         <input type="radio" id="css"name="fav_language" value="css">
+         <label for ="css">css</label> <br>
+
+          <h3>the accent color for range</h3>
+            <label for="vol">volium</label>
+            <input type="range" id="vol"name="vol"min="0%"maxi="100%">
+            <br>
+            <h3> accent color for progress element </h3>
+            <label for="file"> download progress:<label>
+                <progress id ="file"value="72" max="100">72</progress>
+
+         </body
+</html>
